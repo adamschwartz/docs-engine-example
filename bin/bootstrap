@@ -1,0 +1,14 @@
+echo "Deleting .docsengine"
+rm -rf .docsengine
+
+echo "Creating .docsengine directory"
+mkdir .docsengine
+
+echo "Moving docs engine files into .docsengine"
+cp -r node_modules/docs-engine .docsengine
+
+echo "Entering docs engine"
+cd .docsengine/docs-engine
+
+echo "NPM installing inside docs engine"
+npm install

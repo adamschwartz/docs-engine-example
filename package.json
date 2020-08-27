@@ -1,0 +1,11 @@
+{
+  "private": true,
+  "dependencies": {
+    "docs-engine": "git+https://github.com/cloudflare/workers-docs-engine.git"
+  },
+  "scripts": {
+    "bootstrap": "bin/bootstrap",
+    "build": "bin/copysrc && bin/build",
+    "develop": "bin/copysrc && bin/develop"
+  }
+}

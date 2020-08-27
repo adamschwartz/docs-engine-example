@@ -1,0 +1,5 @@
+echo "Enter .docsengine/docs-engine/"
+cd .docsengine/docs-engine
+
+echo "Run npm run build"
+npm run build

@@ -1,5 +1,11 @@
 echo "Enter .docsengine/docs-engine/"
-cd .docsengine/docs-engine
+cd .docsengine
 
 echo "Run npm run build"
 npm run build
+
+echo "Return to project directory"
+cd ../
+
+echo "Run bin/postbuild.js"
+node bin/postbuild.js

@@ -1,5 +1,5 @@
 echo "Enter .docsengine/docs-engine/"
-cd .docsengine/docs-engine
+cd .docsengine
 
 echo "Run npm run clean"
 npm run clean

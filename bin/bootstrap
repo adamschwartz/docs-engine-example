@@ -5,10 +5,10 @@ echo "Creating .docsengine directory"
 mkdir .docsengine
 
 echo "Moving docs engine files into .docsengine"
-cp -r node_modules/docs-engine .docsengine
+cp -r node_modules/docs-engine/ .docsengine
 
 echo "Entering docs engine"
-cd .docsengine/docs-engine
+cd .docsengine
 
 echo "NPM installing inside docs engine"
 npm install

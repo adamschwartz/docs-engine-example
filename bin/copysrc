@@ -1,17 +1,17 @@
-echo "Enter .docsengine/docs-engine/"
-cd .docsengine/docs-engine
+echo "Enter .docsengine"
+cd .docsengine
 
-echo "Delete .docsengine/docs-engine/docs-config.js"
+echo "Delete .docsengine/docs-config.js"
 rm docs-config.js
 
 echo "Copy docs-config.js into .docsengine/docs-engine"
-cp ../../docs-config.js ./
+cp ../docs-config.js ./
 
-echo "Enter .docsengine/docs-engine/src/"
+echo "Enter .docsengine/src/"
 cd src
 
-echo "Delete .docsengine/docs-engine/src/content/"
+echo "Delete .docsengine/src/content/"
 rm -rf content/
 
-echo "Copy content into .docsengine/docs-engine/src/"
-cp -r ../../../src/content ./
+echo "Copy content into .docsengine/src/"
+cp -r ../../src/content ./

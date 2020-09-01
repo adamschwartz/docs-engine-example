@@ -1,7 +1,7 @@
 {
   "private": true,
   "dependencies": {
-    "docs-engine": "git+https://github.com/cloudflare/workers-docs-engine.git"
+    "docs-engine": "git+https://github.com/adamschwartz/cloudflare-docs-engine.git"
   },
   "scripts": {
     "bootstrap": "bin/bootstrap",

@@ -10,7 +10,7 @@ module.exports = {
     },
     {
       title: "Docs Engine on GitHub",
-      url: "https://github.com/cloudflare/workers-docs-engine"
+      url: "https://github.com/adamschwartz/cloudflare-docs-engine"
     },
     {
       title: "example.com",

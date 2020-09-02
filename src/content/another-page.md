@@ -4,7 +4,7 @@ import ColorSquare from "./components/color-square.js"
 
 This is just another page to test navigation between pages.
 
-Here is also a test of a custom component:
+Here’s a test of including a custom MDX component:
 
 <p>
   <ColorSquare color="rgba(243, 128, 32, 1.0)"/>
@@ -15,13 +15,14 @@ Here is also a test of a custom component:
   <ColorSquare color="rgba(243, 128, 32, 0.5)"/>
   <ColorSquare color="rgba(243, 128, 32, 0.4)"/>
   <ColorSquare color="rgba(243, 128, 32, 0.3)"/>
-  <ColorSquare color="rgba(243, 128, 32, 0.2)"/>
-  <ColorSquare color="rgba(243, 128, 32, 0.1)"/>
 </p>
 
-Here’s how it works:
+Here’s the part of the code from this very Markdown file used to make that happen:
 
 ```md
+---
+filename: another-page.md
+---
 import ColorSquare from "./components/color-square.js"
 
 <p>
@@ -33,9 +34,9 @@ import ColorSquare from "./components/color-square.js"
   <ColorSquare color="rgba(243, 128, 32, 0.5)"/>
   <ColorSquare color="rgba(243, 128, 32, 0.4)"/>
   <ColorSquare color="rgba(243, 128, 32, 0.3)"/>
-  <ColorSquare color="rgba(243, 128, 32, 0.2)"/>
-  <ColorSquare color="rgba(243, 128, 32, 0.1)"/>
 </p>
 ```
+
+Here’s a test of a button link:
 
 <Link className="Button Button-is-docs-primary" to="/">Go back home</Link>

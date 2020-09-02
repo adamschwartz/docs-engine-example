@@ -8,9 +8,9 @@ type: overview
 
 # Docs engine example site
 
-This is an example docs site built using the [docs engine](https://github.com/cloudflare/workers-docs-engine).
+This is an example docs site built using the [docs engine](https://github.com/adamschwartz/cloudflare-docs-engine).
 
-Check out [the other page](/another-page).
+Check out [another page](/another-page).
 
 --------------------------------
 

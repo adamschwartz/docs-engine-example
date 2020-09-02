@@ -1,8 +1,0 @@
-echo "Enter .docsengine/docs-engine/"
-cd .docsengine
-
-echo "Run npm run clean"
-npm run clean
-
-echo "Run npm run develop"
-npm run develop

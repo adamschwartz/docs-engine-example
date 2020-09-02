@@ -1,11 +1,11 @@
 {
   "private": true,
   "dependencies": {
-    "docs-engine": "git+https://github.com/adamschwartz/cloudflare-docs-engine.git"
+    "cloudflare-docs-engine": "git+https://github.com/adamschwartz/cloudflare-docs-engine.git"
   },
   "scripts": {
-    "bootstrap": "bin/bootstrap",
-    "build": "bin/copysrc && bin/build",
-    "develop": "bin/copysrc && bin/develop"
+    "bootstrap": "node_modules/cloudflare-docs-engine/bin/commands.sh bootstrap",
+    "build": "node_modules/cloudflare-docs-engine/bin/commands.sh build",
+    "develop": "node_modules/cloudflare-docs-engine/bin/commands.sh develop"
   }
 }

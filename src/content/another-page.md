@@ -40,5 +40,3 @@ import ColorSquare from "./components/color-square.js"
 Here’s a test of a button link:
 
 <Link className="Button Button-is-docs-primary" to="/">Go back home</Link>
-
-Here’s some **bold** text.

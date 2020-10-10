@@ -3,6 +3,7 @@ module.exports = {
   pathPrefix: "",
   productLogoPathD: "M8 8v32h32V26H22V8zm18-2h16v16H26z",
   contentRepo: "adamschwartz/docs-engine-example",
+  contentRepoFolder: "",
   externalLinks: [
     {
       title: "Adam Schwartz website",

@@ -40,3 +40,19 @@ import ColorSquare from "./components/color-square.js"
 Here’s a test of a button link:
 
 <Link className="Button Button-is-docs-primary" to="/">Go back home</Link>
+
+## Another heading
+
+This section is here to test the automatic Table of Contents generation as well as the scroll to anchor feature. That’s why this paragraph of text is artificially elongated.
+
+### Sub-heading
+
+This is yet another section here to test the automatic Table of Contents generation as well as the scroll to anchor feature.
+
+### Yet another sub-heading
+
+And yet another sub-heading.
+
+## An other heading
+
+This section is just another one.

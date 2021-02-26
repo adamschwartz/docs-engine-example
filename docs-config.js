@@ -21,6 +21,9 @@ module.exports = {
   search: {
     indexName: "",
     apiKey: "",
+    algoliaOptions: {
+      facetFilters: ""
+    },
   },
   siteMetadata: {
     title: "Example docs",
